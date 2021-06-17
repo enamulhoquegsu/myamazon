@@ -1,0 +1,27 @@
+.product-description{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.image-large{
+    width: 90%;
+    height: 450px;
+    flex: 1 1 auto;
+}
+
+.product-info{
+    border: springgreen 1px solid;
+    flex: 1 1 auto;
+}
+
+.add-to-cart{
+    border: steelblue 1px solid;
+    flex: 2 2 auto;
+}
+
+.btn-add-to-cart{
+    width: 80%;
+}

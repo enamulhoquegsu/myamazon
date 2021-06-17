@@ -1,0 +1,56 @@
+/**
+
+.container place-order-screen >[ .steps, .all-data ] 
+    .steps > [.active, .active, .active, .active]
+    .all-data > [ .order-info, .payment-details ]
+
+*/
+
+
+.place-order-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.all-data {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.order-info{
+    flex:4 1 auto;
+    border: orchid 1px solid;
+}
+.payment-details{
+    flex:1 1 auto;
+    border: brown 1px solid;
+}
+
+.each-item{
+    display: flex;
+    justify-content: space-between;
+    border: cadetblue 1px solid;
+
+}
+.each-item > div {
+    padding : 4px;
+}
+
+.each-item .image-sm {
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+    
+}
+
+
+@media (max-width: 600px) {
+    .all-data{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

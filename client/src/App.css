@@ -1,0 +1,44 @@
+.App {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content:space-between;
+  min-height: 100px;
+}
+  .header > * {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: blue 1px solid;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 2px;
+  padding: 2px;
+}
+
+
+.image-medium {
+  width: 350px;
+  height: 300px;
+}

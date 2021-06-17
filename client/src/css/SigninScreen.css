@@ -1,0 +1,36 @@
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    flex: 4 4 auto;
+}
+
+.sign-email{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sign-password{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.label-email {
+    margin-bottom: 10px;
+}
+
+.label-password {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 340px;
+}
+button{
+    width: 340px;
+    font-size: 18px;
+}

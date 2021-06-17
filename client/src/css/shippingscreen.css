@@ -1,0 +1,16 @@
+.steps{
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps >div{
+    border: 1px solid;
+    flex: 1;
+    background-color: transparent;
+}
+
+.steps>div.active {
+    border: 1px solid green;
+    flex: 1;
+    background-color: orangered;
+}
